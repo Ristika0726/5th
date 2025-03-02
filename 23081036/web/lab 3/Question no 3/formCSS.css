@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerForm{
+    border: solid 1px black;
+    padding: 40px;
+    background-color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.fieldLabels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.fieldLabels input{
+    min-width: 330px;
+    min-height: 40px;
+
+    padding: 0 5px 0 5px;
+    outline: none;
+}
+
+.gender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.gender .options{
+    border: solid 1px black ;
+    min-width: 330px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: lightgray;
+}
+
+.interest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.interest .choices{
+    display: flex;
+    gap: 10px;
+    border: solid 1px black ;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.btn{
+    min-width: 330px;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

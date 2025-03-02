@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="formCSS.css">
+
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="registerForm">
+        <form action="#" class="form">
+            <div class="fieldLabels">
+                <label>Full Name</label>
+                <input type="text"  placeholder="Enter your name" required>
+            </div>
+    
+            <div class="fieldLabels">
+                <label>Email ID</label>
+                <input type="email" placeholder="Enter your Email" required>
+            </div>
+    
+            <div class="fieldLabels">
+                <label>Password</label>
+                <input type="password" placeholder="Enter your Password" required>
+            </div>
+    
+            <div class="gender">
+                <label class="gTitle">Gender</label>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" value="Female" name="genders">
+                        <label>Female</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="Male" name="genders">
+                        <label>Male</label>
+                    </div>
+                </div>
+            </div>
+            
+    
+            <div class="interest">
+                <label class="iTitle">Click on your Interests:</label>
+                <div class="choices">
+                    <div class="choice">
+                        <input type="checkbox" value="Coding" name="interests">
+                        <label>Coding</label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" value="Singing" name="interests">
+                        <label>Singing</label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" value="Football" name="interests">
+                        <label>Football</label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" value="Dancing" name="interests">
+                        <label>Dancing</label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" value="Basketball" name="interests">
+                        <label>Basketball</label>
+                    </div>
+                </div>
+            </div>
+    
+            <input type="submit" value="Register" class="btn">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Div Table</title>
+
+    <style>
+
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        .table{
+            display: grid;
+            border: solid 1px;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        .btmRow{
+            border: solid 1px;
+            text-align: center;
+            padding: 5px;
+            max-width: 1470px;
+            font-weight: bold;
+        }
+
+        .row{
+            display: grid;
+            grid-template-columns: 40px 350px 350px 350px 350px;
+            gap: 10px;
+        }
+
+        .col{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        .inRows{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px;
+            height: 40px;
+            width: 340px;
+        }
+
+        .headding{
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+<h1>Div Table</h1>
+    <div class="table">
+        <div class="row">
+            <div class="col headding">S.N</div>
+            <div class="col headding">Project Name</div>
+            <div class="col headding">Student Name</div>
+            <div class="col headding"> Exam Roll Number</div>
+            <div class="col headding">Remarks</div>
+        </div>
+        <div class="row">
+            <div class="col">1.</div>
+            <div class="col">Doctor Appointment System</div>
+            <div class="col">
+                <div class="inRows">Amelia Carter</div>
+                <div class="inRows">Mason Hughes</div>
+                <div class="inRows">Harper Bennett</div>
+            </div>
+            <div class="col">
+                <div class="inRows">28081002</div>
+                <div class="inRows">28081023</div>
+                <div class="inRows">28081033</div>
+            </div>
+            <div class="col">
+                <div class="inRows">Pass</div>
+                <div class="inRows">Pass</div>
+                <div class="inRows">Pass</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">2.</div>
+            <div class="col">Student Management System</div>
+            <div class="col">
+                <div class="inRows">Lucas Evans</div>
+                <div class="inRows">Charlotte Reed</div>
+            </div>
+            <div class="col">
+                <div class="inRows">28081022</div>
+                <div class="inRows">28081032</div>
+            </div>
+            <div class="col">
+                <div class="inRows">Pass</div>
+                <div class="inRows">Pass</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">3.</div>
+            <div class="col">Personal Protfolio</div>
+            <div class="col">
+                <div class="inRows">Elijah Foster</div>
+                <div class="inRows">Mia Morgan</div>
+            </div>
+            <div class="col">
+                <div class="inRows">28081012</div>
+                <div class="inRows">28081013</div>
+            </div>
+            <div class="col">
+                <div class="inRows">Pass</div>
+                <div class="inRows">Pass</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">4.</div>
+            <div class="col">Library Management System</div>
+            <div class="col">Absent</div>
+            <div class="col">Absent</div>
+            <div class="col">Fail</div>
+        </div>
+        <div class="btmRow">Note: Collect the Given Reports in the Respective Departments</div>
+    </div>
+</body>
+</html>

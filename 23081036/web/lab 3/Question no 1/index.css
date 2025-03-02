@@ -1,0 +1,48 @@
+body{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+nav{
+    text-align: center;
+    border: solid 2px red;
+    padding: 10px;
+}
+
+.box{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 230px auto 230px;
+    grid-gap: 10px;
+    height: 80vh;
+}
+
+.ad{
+    border: solid 1px rgb(51, 82, 82);
+    background-color: rgb(52, 82, 82);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product{
+    border: solid 1px rgb(25, 181, 181);
+    padding: 10px;
+}
+
+.product{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.pro{
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
